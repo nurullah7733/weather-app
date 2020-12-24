@@ -15,7 +15,7 @@ app.use('/api/history', require('./api/route'));
 
 
  
-const PORT = process.env.PORT || 4444;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
     console.log('APP is Running on PORT ' + PORT);
     mongoose.connect("mongodb+srv://nur:nur123456@cluster0.tccgp.mongodb.net", {useNewUrlParser: true}, () => {
