@@ -85,7 +85,7 @@ function getWeatherData(city = defaultCity, coords, cb){
             if(cb) cb(weather);
 
         }).catch( e => {
-            console.log(e);
+     
             alert('City Nor Found');
         })
 }
